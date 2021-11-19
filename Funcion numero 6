@@ -1,0 +1,13 @@
+%Octave Script
+%Title    :2.3 Funcion Inyectiva
+%Author   :Jonatan Aparicio Quintanar
+%Date     :202123048
+%Version  :1.0
+%Notes    :Requiere aplicacion de octave para la ejecucion de graficacion
+
+%Dominio de la funcion
+x=-20:20;
+%Funcion
+y=x.^4+1\x.^3;
+%Plotear Funcion 
+plot(x,y);
